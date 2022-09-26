@@ -1,0 +1,245 @@
+.navbar {
+     padding-top: 0px;
+     transition-duration: 0.5s;
+}
+.navbar img{
+    width: 10%;
+}
+.navbar-shrink {
+    background: #1a2526;
+}
+.navbar .nav-item{
+    text-transform: uppercase;
+    font-weight: 400;
+    }
+
+.navbar .navbar-nav .nav-link{
+    position: relative;
+    padding-top: 27px;
+}
+.navbar .navbar-nav .nav-link::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #6bc1d7;
+    transition: all 0.4s;
+}
+.navbar .navbar-nav .nav-link:hover::after,
+.navbar .navbar-nav .nav-link.active::after{
+    height: 5PX;
+}
+.navbar-dark .navbar-nav .nav-link::before{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    top:0;
+    left: 0;
+    background-color: #6bc1d778;
+    transition: all 0.4s;
+}
+.navbar-dark .navbar-nav .nav-link:hover::before,
+.navbar-dark .navbar-nav .nav-link.active::before{
+height: 100%;
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-color: #000000b3;
+    background-blend-mode: multiply;
+}
+.banner .row{
+    height: 110vh;
+}
+.banner .header{
+    text-align: center;
+}
+.banner .header h1{
+    color: #40afcc;
+    font-weight: 700;
+    text-align: center;
+    font-size: 55px;
+}
+.banner .header span{
+    color: #fff;
+    font-weight: 400;
+}
+.banner .header p{
+    color: #cecece;
+    width: 393px;
+    text-align: center;
+    margin: 0 auto;
+}
+.btn-custom{
+    margin-top: 47px;
+    background-color: #40afcc;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border-color: #6bc1d7;
+    border-bottom-left-radius: 20px;
+    color: #FFF;
+    padding: 10px 20px;
+    transition: 0.4s;
+    font-weight: 600;
+}
+.btn a{}
+.btn-custom:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.btn-custom-reverse{
+    margin-top: 47px;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border-color: #6bc1d7;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 0.4s;
+    font-weight: 600;
+}
+.btn-custom-reverse:hover{
+    background-color: #40afcc;
+    color: #fff;
+}
+.service-section{margin-top: 100px;}
+.service-section .row{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-image{
+    position: relative;
+    width: 100%;
+}
+.service-image:hover::after{
+
+    height: 100%;
+}
+.service-image::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #73b3c38c;
+    transition: all 0.4s
+}
+.service-image::before{
+    content: "Travel Place";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    transition: all 0.4s;
+    overflow: hidden;
+}
+.service-image:hover::before{
+
+    height: 50%;
+}
+header{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    /* padding: 50px 0; */
+    color: #33A9DC;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.contact-section{}
+.contact-section .heading{
+    margin-bottom: 60px;
+}
+.contact-section h1{
+    font-size: 58px;
+    line-height: 2.4;
+}
+.contact-section span{
+    width: 100%;
+    margin: auto;
+    font-size: 92px;
+}
+
+.contact-section .form-control{
+    border-radius: 0;
+    border-color: #40afcc;
+    background-color: #fafafa;
+}
+input{
+}
+.form-group {
+    /* margin-bottom: 2.2rem; */
+}
+
+.form-btn-custom{
+    background-color: #40afcc;
+    text-transform: uppercase;
+    border-color: #6bc1d7;
+    border-bottom-right-radius: 20px;
+    color: #FFF;
+    padding: 10px 25px;
+    transition: 0.4s;
+    font-weight: 600;
+    margin-left: 370px;
+    /* float: right; */
+}
+.bt-c{}
+.form-btn-custom:hover{
+    background-color: #186477;
+    color: #fff;
+}
+footer{
+    background-color: #40afcc;
+    margin-top: 80px;
+}
+footer .row{
+    width: 100%;
+    text-align: center;
+}
+footer h6{
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 400;
+}
+.sign-up-form{
+}
+.sign-up-form h1{
+    background-color: #40afcc;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 42px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+.sign-up{
+    padding: 15px 15px;
+    background: #40afcc;
+}
+.btn-primary {
+    background-color: #007bff6b !important;
+    border-color: #007bff7d !important;
+}
+.sign-up-form button{}
+
+.badge{
+    font-size: 156% !important;
+}
+
+
+

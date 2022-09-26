@@ -1,0 +1,17 @@
+/* All Custom Desion*/
+/* Alcton Item*/
+.action-item ul,
+.delete-option ul{
+	padding: 0;
+}
+.action-item ul li,
+.delete-option ul li{
+	list-style: none;
+	display: inline;
+}
+.action-item ul li .fa-edit{
+	color: blue;
+}
+.action-item ul li .fa-trash{
+	color: red;
+}
